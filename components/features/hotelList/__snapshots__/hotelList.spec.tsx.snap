@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelList should show HotelList 1`] = `
+<div>
+  <div
+    class="sc-crXcEl jAlXKY"
+  >
+    <div
+      class="sc-eCYdqJ tFDdR"
+    >
+      <div
+        class="sc-bczRLJ bxsSWL"
+      >
+        <img
+          class="sc-gsnTZi bFjRRX"
+          src="https://unsplash.it/145/125/?random"
+        />
+        <div
+          class="sc-dkzDqf iuODgQ"
+        >
+          Exclusive Deal
+        </div>
+      </div>
+      <div
+        class="sc-jSMfEi jAQJee"
+      >
+        <div
+          class="sc-iBkjds dqsmth"
+        >
+          <span>
+            Courtyard by Marriott Sydney-North Ryde
+          </span>
+          <span
+            class="sc-hKMtZM gBiuEH"
+          >
+            Star rating 4.5
+          </span>
+        </div>
+        <div
+          class="sc-ftvSup hGwNMW"
+        >
+          <span>
+            7-11 Talavera Rd
+          </span>
+          <span>
+            North Ryde
+          </span>
+        </div>
+        <a
+          class="sc-papXJ hierex"
+          href="/"
+        >
+          Deluxe Balcony Room
+        </a>
+        <div
+          class="sc-jqUVSM cERLEw"
+        />
+      </div>
+      <div
+        class="sc-gKXOVf eDpLKX"
+      >
+        <div>
+          1 night total (AUD)
+        </div>
+        <div
+          class="sc-kDDrLX DgOrb"
+        >
+          $
+          329
+        </div>
+        <div
+          class="sc-iqcoie esPlUa"
+        >
+          Save $
+          30
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ tFDdR"
+    >
+      <div
+        class="sc-bczRLJ bxsSWL"
+      >
+        <img
+          class="sc-gsnTZi bFjRRX"
+          src="https://unsplash.it/145/125/?random"
+        />
+        <div
+          class="sc-dkzDqf iuODgQ"
+        >
+          Exclusive Deal
+        </div>
+      </div>
+      <div
+        class="sc-jSMfEi jAQJee"
+      >
+        <div
+          class="sc-iBkjds dqsmth"
+        >
+          <span>
+            Primus Hotel Sydney
+          </span>
+          <span
+            class="sc-hKMtZM gBiuEH"
+          >
+            Star rating 5
+          </span>
+        </div>
+        <div
+          class="sc-ftvSup hGwNMW"
+        >
+          <span>
+            339 Pitt St
+          </span>
+          <span>
+            Sydney
+          </span>
+        </div>
+        <a
+          class="sc-papXJ hierex"
+          href="/"
+        >
+          Deluxe King
+        </a>
+        <div
+          class="sc-jqUVSM cERLEw"
+        >
+          <span>
+            Free Cancellation
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-gKXOVf eDpLKX"
+      >
+        <div>
+          1 night total (AUD)
+        </div>
+        <div
+          class="sc-kDDrLX DgOrb"
+        >
+          $
+          375
+        </div>
+        <div
+          class="sc-iqcoie esPlUa"
+        >
+          Save $
+          28
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ tFDdR"
+    >
+      <div
+        class="sc-bczRLJ bxsSWL"
+      >
+        <img
+          class="sc-gsnTZi bFjRRX"
+          src="https://unsplash.it/145/125/?random"
+        />
+        <div
+          class="sc-dkzDqf iuODgQ"
+        >
+          Red Hot
+        </div>
+      </div>
+      <div
+        class="sc-jSMfEi jAQJee"
+      >
+        <div
+          class="sc-iBkjds dqsmth"
+        >
+          <span>
+            Rydges World Square Sydney
+          </span>
+          <span
+            class="sc-hKMtZM gBiuEH"
+          >
+            Star rating 4
+          </span>
+        </div>
+        <div
+          class="sc-ftvSup hGwNMW"
+        >
+          <span>
+            389 Pitt St
+          </span>
+          <span>
+            Sydney
+          </span>
+        </div>
+        <a
+          class="sc-papXJ hierex"
+          href="/"
+        >
+          Deluxe King Room
+        </a>
+        <div
+          class="sc-jqUVSM cERLEw"
+        />
+      </div>
+      <div
+        class="sc-gKXOVf eDpLKX"
+      >
+        <div>
+          1 night total (AUD)
+        </div>
+        <div
+          class="sc-kDDrLX DgOrb"
+        >
+          $
+          227
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ tFDdR"
+    >
+      <div
+        class="sc-bczRLJ bxsSWL"
+      >
+        <img
+          class="sc-gsnTZi bFjRRX"
+          src="https://unsplash.it/145/125/?random"
+        />
+        <div
+          class="sc-dkzDqf iuODgQ"
+        >
+          Exclusive Deal
+        </div>
+      </div>
+      <div
+        class="sc-jSMfEi jAQJee"
+      >
+        <div
+          class="sc-iBkjds dqsmth"
+        >
+          <span>
+            PARKROYAL Darling Harbour Sydney
+          </span>
+          <span
+            class="sc-hKMtZM gBiuEH"
+          >
+            Star rating 4.5
+          </span>
+        </div>
+        <div
+          class="sc-ftvSup hGwNMW"
+        >
+          <span>
+            150 Day Street
+          </span>
+          <span>
+            Sydney
+          </span>
+        </div>
+        <a
+          class="sc-papXJ hierex"
+          href="/"
+        >
+          Deluxe King
+        </a>
+        <div
+          class="sc-jqUVSM cERLEw"
+        >
+          <span>
+            Free Cancellation
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-gKXOVf eDpLKX"
+      >
+        <div>
+          1 night total (AUD)
+        </div>
+        <div
+          class="sc-kDDrLX DgOrb"
+        >
+          $
+          535
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ tFDdR"
+    >
+      <div
+        class="sc-bczRLJ bxsSWL"
+      >
+        <img
+          class="sc-gsnTZi bFjRRX"
+          src="https://unsplash.it/145/125/?random"
+        />
+        <div
+          class="sc-dkzDqf iuODgQ"
+        >
+          Bonus Points
+        </div>
+      </div>
+      <div
+        class="sc-jSMfEi jAQJee"
+      >
+        <div
+          class="sc-iBkjds dqsmth"
+        >
+          <span>
+            Metro Hotel Marlow Sydney Central
+          </span>
+          <span
+            class="sc-hKMtZM gBiuEH"
+          >
+            Star rating 3.5
+          </span>
+        </div>
+        <div
+          class="sc-ftvSup hGwNMW"
+        >
+          <span>
+            431-439 Pitt Street
+          </span>
+          <span>
+            Sydney
+          </span>
+        </div>
+        <a
+          class="sc-papXJ hierex"
+          href="/"
+        >
+          Deluxe King
+        </a>
+        <div
+          class="sc-jqUVSM cERLEw"
+        >
+          <span>
+            Free Cancellation
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-gKXOVf eDpLKX"
+      >
+        <div>
+          1 night total (AUD)
+        </div>
+        <div
+          class="sc-kDDrLX DgOrb"
+        >
+          $
+          295
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

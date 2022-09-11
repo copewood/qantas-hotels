@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelList should show HotelCard 1`] = `
+<div>
+  <div
+    class="sc-eCYdqJ tFDdR"
+  >
+    <div
+      class="sc-bczRLJ bxsSWL"
+    >
+      <img
+        class="sc-gsnTZi bFjRRX"
+        src="https://unsplash.it/145/125/?random"
+      />
+      <div
+        class="sc-dkzDqf iuODgQ"
+      >
+        Exclusive Deal
+      </div>
+    </div>
+    <div
+      class="sc-jSMfEi jAQJee"
+    >
+      <div
+        class="sc-iBkjds dqsmth"
+      >
+        <span>
+          Courtyard by Marriott Sydney-North Ryde
+        </span>
+        <span
+          class="sc-hKMtZM gBiuEH"
+        >
+          Star rating 4.5
+        </span>
+      </div>
+      <div
+        class="sc-ftvSup hGwNMW"
+      >
+        <span>
+          7-11 Talavera Rd
+        </span>
+        <span>
+          North Ryde
+        </span>
+      </div>
+      <a
+        class="sc-papXJ hierex"
+        href="/"
+      >
+        Deluxe Balcony Room
+      </a>
+      <div
+        class="sc-jqUVSM cERLEw"
+      />
+    </div>
+    <div
+      class="sc-gKXOVf eDpLKX"
+    >
+      <div>
+        1 night total (AUD)
+      </div>
+      <div
+        class="sc-kDDrLX DgOrb"
+      >
+        $
+        329
+      </div>
+      <div
+        class="sc-iqcoie esPlUa"
+      >
+        Save $
+        30
+      </div>
+    </div>
+  </div>
+</div>
+`;

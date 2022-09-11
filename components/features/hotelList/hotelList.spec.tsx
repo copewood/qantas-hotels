@@ -1,13 +1,11 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { HotelList } from './hotelList';
-import { mockHotels } from 'pages/api/hotels';
+import { mockHotels } from '../../../pages/api/hotels';
 
 describe('HotelList', () => {
-  beforeEach(() => {
-    render(<HotelList hotels={mockHotels.results}/>);
-  });
   it('should show HotelList', () => {
-    expect(screen.getByText('Hotel list')).toBeTruthy();
+    const { container } = render(<HotelList hotels={mockHotels.results}/>);
+    expect(container).toMatchSnapshot()
   });
 });

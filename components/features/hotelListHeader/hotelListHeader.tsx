@@ -9,9 +9,13 @@ import {
 
 type HotelListHeaderProps = {
   hotels: Array<Hotel>
+  setSortOrder: (sortOrder: string) => void;
 };
 
-export const HotelListHeader: FC<HotelListHeaderProps> = ({hotels}) => {
+export const HotelListHeader: FC<HotelListHeaderProps> = ({hotels, setSortOrder}) => {
+
+  const sortList = (event) => setSortOrder(event.currentTarget.value);
+
   return <>
     <StyledImageContainer src="/qantas-logo.png" />
 
@@ -21,7 +25,7 @@ export const HotelListHeader: FC<HotelListHeaderProps> = ({hotels}) => {
       </div>
       <div>
         Sort by
-        <StyledSelect name="sort" id="sort">
+        <StyledSelect onClick={sortList} name="sort" id="sort">
           <option value="desc">Price high-low</option>
           <option value="asc">Price low-high</option>
         </StyledSelect>

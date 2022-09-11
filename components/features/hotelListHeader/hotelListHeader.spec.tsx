@@ -1,13 +1,13 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { HotelListHeader } from './hotelListHeader';
-import { mockHotels } from 'pages/api/hotels'
+import { mockHotels } from '../../../pages/api/hotels'
+
+const mockSetSortOrder = jest.fn();
 
 describe('HotelList', () => {
-  beforeEach(() => {
-    render(<HotelListHeader hotels={mockHotels.results} />);
-  });
   it('should show HotelList', () => {
-    expect(screen.getByText('Hotel list header')).toBeTruthy();
+    const { container } = render(<HotelListHeader hotels={mockHotels.results} setSortOrder={mockSetSortOrder} />);
+    expect(container).toMatchSnapshot()
   });
 });

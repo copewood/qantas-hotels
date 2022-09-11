@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useState} from 'react';
 
-import { HotelListHeader } from 'components/features/hotelListHeader/hotelListHeader';
-import { HotelList } from 'components/features/hotelList/hotelList';
+import { HotelListHeader } from '../../../components/features/hotelListHeader/hotelListHeader';
+import { HotelList } from '../../../components/features/hotelList/hotelList';
 import { Hotel } from '@components/models/hotel';
 
 type HotelsProps = {};
@@ -14,6 +14,7 @@ const fetchHotels = async () => {
 
 export const Hotels: FC<HotelsProps> = ({}) => {
   const [hotels, setHotels] = useState<Array<Hotel>>();
+  const [sortOrder, setSortOrder] = useState<string>('desc');
 
   useEffect(() => {
     fetchHotels().then((response)=>{
@@ -23,8 +24,8 @@ export const Hotels: FC<HotelsProps> = ({}) => {
   
   return <>
     {hotels && <>
-      <HotelListHeader hotels={hotels}/>
-      <HotelList hotels={hotels}/>
+      <HotelListHeader hotels={hotels} setSortOrder={setSortOrder}/>
+      <HotelList hotels={hotels} sortOrder={sortOrder}/>
     </>}
   </>;
 };

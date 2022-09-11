@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelList should show HotelList 1`] = `
+<div>
+  <img
+    class="sc-gsnTZi eToNsf"
+    src="/qantas-logo.png"
+  />
+  <div
+    class="sc-bczRLJ la-DgbC"
+  >
+    <div>
+      5
+       hotels in Sydney
+    </div>
+    <div>
+      Sort by
+      <select
+        class="sc-dkzDqf gKtHBM"
+        id="sort"
+        name="sort"
+      >
+        <option
+          value="desc"
+        >
+          Price high-low
+        </option>
+        <option
+          value="asc"
+        >
+          Price low-high
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelList should show HotelImage 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ bxsSWL"
+  >
+    <img
+      class="sc-gsnTZi bFjRRX"
+      src="https://unsplash.it/145/125/?random"
+    />
+    <div
+      class="sc-dkzDqf iuODgQ"
+    />
+  </div>
+</div>
+`;
