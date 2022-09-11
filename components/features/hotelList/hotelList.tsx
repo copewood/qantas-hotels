@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 import { HotelCard } from '@components/features/hotelCard/hotelCard';
-import { ListContainer } from './hotelList.styles';
+import { StyledListContainer } from './hotelList.styles';
 import { Hotel } from '../../models/hotel';
 
 type HotelListProps = {
@@ -10,10 +10,10 @@ type HotelListProps = {
 
 export const HotelList: FC<HotelListProps> = ({hotels}) => {
   return <>
-    <ListContainer>
-      {hotels.map((hotel: Hotel) => {
-       return <HotelCard hotel={hotel}/>
+    <StyledListContainer>
+      {hotels.map((hotel: Hotel, index: number) => {
+        return <HotelCard key={`hotel-${index}`} hotel={hotel}/>
       })}
-    </ListContainer>
+    </StyledListContainer>
   </>;
 };

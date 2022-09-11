@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import { HotelImage } from 'components/atoms/hotelImage/hotelImage';
 import { StarRating } from 'components/atoms/starRating/starRating';
 
-import { CardContainer } from './hotelCard.styles';
+import { StyledCardContainer } from './hotelCard.styles';
 import { Hotel } from '../../models/hotel';
 
 type HotelCardProps = {
@@ -11,10 +11,11 @@ type HotelCardProps = {
 };
 
 export const HotelCard: FC<HotelCardProps> = ({hotel}) => {
+  const { property } = hotel;
   return <>
-    <CardContainer>
-        <HotelImage/>
-        <StarRating/>
-    </CardContainer>
+    <StyledCardContainer>
+        <HotelImage previewImage={property.previewImage}/>
+        <StarRating rating={property.rating}/>
+    </StyledCardContainer>
   </>;
 };

@@ -1,13 +1,16 @@
 import React, { FC } from 'react';
+import { Hotel } from '@components/models/hotel';
 
-import { HeaderContainer } from './hotelListHeader.styles';
+import { StyledHeaderContainer } from './hotelListHeader.styles';
 
-type HotelListHeaderProps = {};
+type HotelListHeaderProps = {
+  hotels: Array<Hotel>
+};
 
-export const HotelListHeader: FC<HotelListHeaderProps> = ({}) => {
+export const HotelListHeader: FC<HotelListHeaderProps> = ({hotels}) => {
   return <>
-    <HeaderContainer>
-      Hotel list header
-    </HeaderContainer>
+    <StyledHeaderContainer>
+      Hotel list header = {hotels.length}
+    </StyledHeaderContainer>
   </>;
 };

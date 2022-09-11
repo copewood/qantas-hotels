@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ListContainer = styled.div`
+export const StyledListContainer = styled.div`
   padding: 5rem 0;
   flex: 1;
   display: flex;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CardContainer = styled.div`
+export const StyledCardContainer = styled.div`
   padding: 5rem 0;
   flex: 1;
   display: flex;
