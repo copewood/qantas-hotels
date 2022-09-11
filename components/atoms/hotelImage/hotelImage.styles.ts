@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledImageContainer = styled.div`
-  padding: 5rem 2rem;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid red;
-  width: 100%
+  width: 150px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+`;
+
+export const StyledImage = styled.img`
+  width: 150px;
 `;

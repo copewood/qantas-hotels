@@ -1,6 +1,9 @@
 import { PreviewImage } from '@components/models/hotel';
 import React, { FC } from 'react';
-import { StyledImageContainer } from './hotelImage.styles';
+import { 
+  StyledImageContainer,
+  StyledImage
+} from './hotelImage.styles';
 
 type HotelImageProps = {
    previewImage: PreviewImage;
@@ -9,7 +12,7 @@ type HotelImageProps = {
 export const HotelImage: FC<HotelImageProps> = ({previewImage}) => {
   return <>
     <StyledImageContainer>
-      Hotel image {previewImage.url}
+      <StyledImage src={previewImage.url} />
     </StyledImageContainer>
   </>;
 };

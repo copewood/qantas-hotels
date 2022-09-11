@@ -1,3 +1,8 @@
+export enum CANCELLATION_OPTION {
+  FREE_CANCELLATION = 'FREE_CANCELLATION',
+  NOT_REFUNDABLE = 'NOT_REFUNDABLE'
+}
+
 export type Property = {
   "propertyId": string;
   "title": string;

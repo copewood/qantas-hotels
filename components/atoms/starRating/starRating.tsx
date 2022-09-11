@@ -9,7 +9,7 @@ type StarRatingProps = {
 export const StarRating: FC<StarRatingProps> = ({rating}) => {
   return <>
     <StyledRatingContainer>
-        Star rating {rating.ratingValue}
+        {`Star rating ${rating.ratingValue}`}
     </StyledRatingContainer>
   </>;
 };

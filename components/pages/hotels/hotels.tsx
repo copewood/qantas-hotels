@@ -24,7 +24,7 @@ export const Hotels: FC<HotelsProps> = ({}) => {
   return <>
     {hotels && <>
       <HotelListHeader hotels={hotels}/>
-      {/* <HotelList hotels={hotels}/> */}
+      <HotelList hotels={hotels}/>
     </>}
   </>;
 };
